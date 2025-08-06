@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    color: black;
+}
+
+.main {
+    background-image: url("./assets/main.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    height: 20vh;
+    /* background-color: black; */
+}
+
+nav span {
+    width: 50%;
+    cursor: pointer;
+}
+
+nav img {
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+
+nav a {
+    position: relative;
+    z-index: 10;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-right: 2rem;
+
+}
+
+nav a:hover {
+    color: brown;
+    text-decoration: underline;
+}
